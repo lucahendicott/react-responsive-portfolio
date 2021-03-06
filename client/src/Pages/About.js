@@ -1,72 +1,143 @@
-import React from "react";
-import me from "../images/me_n_turkey.jpg";
+// import React from "react";
+// import me from "../images/me_n_turkey.jpg";
 import resume from "../images/Resume.pdf";
+
+// const About = () => {
+//   return (
+//     <div className="col-md-8 col-xs-12">
+//       <div className="card about-me">
+//         <div className="card-body">
+//           <div className="page-header">
+//             <h1>About Me</h1>
+//             <img
+//               className="float-left img-thumbnail"
+//               src={me}
+//               alt="Lucah and Turkey"
+//             />
+//             <p className="about-me-txt">
+//               Hello! I’m Lucah. I’m originally from Ohio, but currently reside
+//               in the San Francisco Bay Area. I’m an extreme lover of music,
+//               cartoons, cooking, illustration/ screen printing .. really
+//               anything art related is my thing. However, my first job in high
+//               school was at the local pizza shop and I had continued working in
+//               restaurants and cafes for over 10 years!
+//             </p>
+//             <p className="about-me-txt">
+//               All of my restaurant experiences have been centered around being
+//               part of a team, which has motivated me to step up and be a leader.
+//               I worked my way up in the scene and had the opportunity to become
+//               part of team leading and management. I live to lift people up and
+//               thrive off of setting the tone for a positive culture and
+//               environment that ultimately leads to a successful, motivated, hard
+//               working team.
+//             </p>
+//             <p className="about-me-txt">
+//               While the restaurant scene has been wonderful to me, I decided it
+//               was time for a change. I’ve always been extremely artistic, so I
+//               was thinking to myself, “ how could I best apply this to a
+//               career?” I’ve always had an interest in advertising and graphic
+//               design, specifically gearing towards web design. Being in the Bay
+//               Area has really opened my eyes up to the tech industry and all it
+//               has to offer. I suddenly started realizing just how artistic
+//               programming can be. You have the opportunity to not only design
+//               applications, but create them yourself inside and out. Being a
+//               creator myself, you can imagine how appealing this is! I decided
+//               to take the leap and learn. I believe combining my inner creator
+//               with all of my teamwork and leadership experience, will
+//               undoubtedly fuel me toward success in this industry.
+//             </p>
+//             <span>Email:</span>
+//             <a href="mailto:lucahdavidd88@gmail.com">lucahdavid88@gmail.com</a>
+//             <br />
+//             <span>Phone:</span>
+//             <a href="tel:6145563122">(614)556-3122</a>
+//             <br />
+//             <a
+//               href="https://www.linkedin.com/in/lucahendicott/"
+//               target="_blank"
+//             >
+//               Linkedin
+//             </a>
+//             <br />
+//             <a href="https://github.com/lucahendicott" target="_blank">
+//               GitHub
+//             </a>
+//             <br />
+//             <a href={resume} target="_blank">
+//               Resume
+//             </a>
+//           </div>
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default About;
+
+import React from "react";
+import me from "../profile-photo.jpg";
 
 const About = () => {
   return (
-    <div className="col-md-8 col-xs-12">
-      <div className="card about-me">
-        <div className="card-body">
-          <div className="page-header">
-            <h1>About Me</h1>
-            <img
-              className="float-left img-thumbnail"
-              src={me}
-              alt="Lucah and Turkey"
-            />
-            <p className="about-me-txt">
-              Hello! I’m Lucah. I’m originally from Ohio, but currently reside
-              in the San Francisco Bay Area. I’m an extreme lover of music,
-              cartoons, cooking, illustration/ screen printing .. really
-              anything art related is my thing. However, my first job in high
-              school was at the local pizza shop and I had continued working in
-              restaurants and cafes for over 10 years!
-            </p>
-            <p className="about-me-txt">
-              All of my restaurant experiences have been centered around being
-              part of a team, which has motivated me to step up and be a leader.
-              I worked my way up in the scene and had the opportunity to become
-              part of team leading and management. I live to lift people up and
-              thrive off of setting the tone for a positive culture and
-              environment that ultimately leads to a successful, motivated, hard
-              working team.
-            </p>
-            <p className="about-me-txt">
-              While the restaurant scene has been wonderful to me, I decided it
-              was time for a change. I’ve always been extremely artistic, so I
-              was thinking to myself, “ how could I best apply this to a
-              career?” I’ve always had an interest in advertising and graphic
-              design, specifically gearing towards web design. Being in the Bay
-              Area has really opened my eyes up to the tech industry and all it
-              has to offer. I suddenly started realizing just how artistic
-              programming can be. You have the opportunity to not only design
-              applications, but create them yourself inside and out. Being a
-              creator myself, you can imagine how appealing this is! I decided
-              to take the leap and learn. I believe combining my inner creator
-              with all of my teamwork and leadership experience, will
-              undoubtedly fuel me toward success in this industry.
-            </p>
-            <span>Email:</span>
-            <a href="mailto:lucahdavidd88@gmail.com">lucahdavid88@gmail.com</a>
-            <br />
-            <span>Phone:</span>
-            <a href="tel:6145563122">(614)556-3122</a>
-            <br />
-            <a
-              href="https://www.linkedin.com/in/lucahendicott/"
-              target="_blank"
-            >
-              Linkedin
-            </a>
-            <br />
-            <a href="https://github.com/lucahendicott" target="_blank">
-              GitHub
-            </a>
-            <br />
-            <a href={resume} target="_blank">
-              Resume
-            </a>
+    <div className="container py-5">
+      <div className="row">
+        <div className="col-lg-6 col-xs12">
+          <div className="photo-styles">
+            <img className="profile-photo" src={me} alt="profile-photo" />
           </div>
+        </div>
+        <div className="col-lg-6 col-xs12">
+          <h1 className="about-me-header">About Me</h1>
+          <p className="about-me-txt">
+            Hello! I’m Lucah. I’m originally from Ohio, but currently reside in
+            the San Francisco Bay Area. I’m an extreme lover of music, cartoons,
+            cooking, illustration/ screen printing .. really anything art
+            related is my thing. However, my first job in high school was at the
+            local pizza shop and I had continued working in restaurants and
+            cafes for over 10 years!
+          </p>
+          <p className="about-me-txt">
+            All of my restaurant experiences have been centered around being
+            part of a team, which has motivated me to step up and be a leader. I
+            worked my way up in the scene and had the opportunity to become part
+            of team leading and management. I live to lift people up and thrive
+            off of setting the tone for a positive culture and environment that
+            ultimately leads to a successful, motivated, hard working team.
+          </p>
+          <p className="about-me-txt">
+            While the restaurant scene has been wonderful to me, I decided it
+            was time for a change. I’ve always been extremely artistic, so I was
+            thinking to myself, “ how could I best apply this to a career?” I’ve
+            always had an interest in advertising and graphic design,
+            specifically gearing towards web design. Being in the Bay Area has
+            really opened my eyes up to the tech industry and all it has to
+            offer. I suddenly started realizing just how artistic programming
+            can be. You have the opportunity to not only design applications,
+            but create them yourself inside and out. Being a creator myself, you
+            can imagine how appealing this is! I decided to take the leap and
+            learn. I believe combining my inner creator with all of my teamwork
+            and leadership experience, will undoubtedly fuel me toward success
+            in this industry.
+          </p>
+          <span>Email:</span>
+          <a href="mailto:lucahdavidd88@gmail.com">lucahdavid88@gmail.com</a>
+          <br />
+          <span>Phone:</span>
+          <a href="tel:6145563122">(614)556-3122</a>
+          <br />
+
+          <a href="https://www.linkedin.com/in/lucahendicott/" target="_blank">
+            Linkedin
+          </a>
+          <br />
+          <a href="https://github.com/lucahendicott" target="_blank">
+            GitHub
+          </a>
+          <br />
+          <a href={resume} target="_blank">
+            Resume
+          </a>
         </div>
       </div>
     </div>

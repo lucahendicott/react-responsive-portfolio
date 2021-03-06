@@ -143,3 +143,14 @@ nav ul li {
   color: white;
   text-transform: uppercase;
 }
+
+.profile-photo {
+  width: 20rem;
+  padding: 0.3rem;
+  border-radius: 50%;
+}
+
+.about-me-header {
+  text-transform: uppercase;
+  color: rebeccapurple;
+}
