@@ -18,15 +18,15 @@ const Nav = () => {
         <span className="navbar-toggler-icon"></span>
       </button>
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul className="nav navbar-nav navbar-right">
+        <ul className="nav navbar-nav navbar-right ml-auto">
           <li className="nav-item">
             <Link to="/" className="nav-link">
-              <p>Home</p>
+              Home
             </Link>
           </li>
           <li className="nav-item">
             <Link to="/portfolio" className="nav-link">
-              <p>Portfolio</p>
+              Portfolio
             </Link>
           </li>
         </ul>

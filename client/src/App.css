@@ -1,5 +1,5 @@
 #name {
-  color: #9b59b6;
+  color: white;
 }
 
 h1 {
@@ -81,7 +81,8 @@ button:hover {
 }
 
 @media (max-width: 500px) {
-  .portfolio-card {
+  .portfolio-card,
+  .nav-link {
     width: 89% !important;
   }
 }
@@ -114,4 +115,31 @@ nav ul li {
 .navbar-nav > li > a:focus,
 .navbar-nav > li > a:hover {
   border-top: 2px solid #9b59b6;
+}
+
+.header-styles {
+  background: url(space-header.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  position: relative;
+}
+
+.main-info {
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 1;
+}
+
+.main-info h1 {
+  color: white;
+  text-transform: uppercase;
 }

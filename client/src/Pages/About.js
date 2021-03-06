@@ -1,19 +1,20 @@
 import React from "react";
 import me from "../images/me_n_turkey.jpg";
+import resume from "../images/Resume.pdf";
 
 const About = () => {
   return (
-    <div class="col-md-8 col-xs-12">
-      <div class="card about-me">
-        <div class="card-body">
-          <div class="page-header">
+    <div className="col-md-8 col-xs-12">
+      <div className="card about-me">
+        <div className="card-body">
+          <div className="page-header">
             <h1>About Me</h1>
             <img
-              class="float-left img-thumbnail"
+              className="float-left img-thumbnail"
               src={me}
               alt="Lucah and Turkey"
             />
-            <p class="about-me-txt">
+            <p className="about-me-txt">
               Hello! I’m Lucah. I’m originally from Ohio, but currently reside
               in the San Francisco Bay Area. I’m an extreme lover of music,
               cartoons, cooking, illustration/ screen printing .. really
@@ -21,7 +22,7 @@ const About = () => {
               school was at the local pizza shop and I had continued working in
               restaurants and cafes for over 10 years!
             </p>
-            <p class="about-me-txt">
+            <p className="about-me-txt">
               All of my restaurant experiences have been centered around being
               part of a team, which has motivated me to step up and be a leader.
               I worked my way up in the scene and had the opportunity to become
@@ -30,7 +31,7 @@ const About = () => {
               environment that ultimately leads to a successful, motivated, hard
               working team.
             </p>
-            <p class="about-me-txt">
+            <p className="about-me-txt">
               While the restaurant scene has been wonderful to me, I decided it
               was time for a change. I’ve always been extremely artistic, so I
               was thinking to myself, “ how could I best apply this to a
@@ -62,7 +63,7 @@ const About = () => {
               GitHub
             </a>
             <br />
-            <a href="assets/images/Resume.pdf" target="_blank">
+            <a href={resume} target="_blank">
               Resume
             </a>
           </div>
