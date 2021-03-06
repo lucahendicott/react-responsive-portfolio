@@ -5,6 +5,7 @@ import Portfolio from "./Pages/Portfolio";
 import Nav from "./Components/Nav";
 import Header from "./Components/Header";
 import Particles from "react-particles-js";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -29,9 +30,10 @@ function App() {
         <Nav />
         <Header />
         <Switch>
-          <Route path="/portfolio" component={Portfolio} />
-          <Route path="/" component={About} />
+          <Route exact path="/portfolio" component={Portfolio} />
+          <Route exact path="/" component={About} />
         </Switch>
+        <Footer />
       </BrowserRouter>
     </div>
   );

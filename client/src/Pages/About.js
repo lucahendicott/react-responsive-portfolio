@@ -1,4 +1,3 @@
-import resume from "../images/Resume.pdf";
 import React from "react";
 import me from "../profile-photo.jpg";
 
@@ -44,24 +43,6 @@ const About = () => {
             and leadership experience, will undoubtedly fuel me toward success
             in this industry.
           </p>
-          <span>Email:</span>
-          <a href="mailto:lucahdavidd88@gmail.com">lucahdavid88@gmail.com</a>
-          <br />
-          <span>Phone:</span>
-          <a href="tel:6145563122">(614)556-3122</a>
-          <br />
-
-          <a href="https://www.linkedin.com/in/lucahendicott/" target="_blank">
-            Linkedin
-          </a>
-          <br />
-          <a href="https://github.com/lucahendicott" target="_blank">
-            GitHub
-          </a>
-          <br />
-          <a href={resume} target="_blank">
-            Resume
-          </a>
         </div>
       </div>
     </div>

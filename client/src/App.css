@@ -6,38 +6,14 @@ h1 {
   margin-bottom: 20px;
 }
 
-.portfolio-card {
-  margin: 30px;
-  float: left;
-  /* display: block; */
+.portfolio-photo {
+  width: 40rem;
+  padding: 2px;
 }
 
-.duration-station-pic {
-  width: 500px;
-  /* height: 350px; */
-  padding: 5px;
-}
-
-.workday-gif {
-  padding: 5px;
-}
-
-.code-quiz-gif {
-  width: 600px;
-  height: 350px;
-  padding: 5px;
-}
-
-.about-me {
-  margin-top: 40px;
-  margin-left: 30px;
-  margin-right: 30px;
-  margin-bottom: 40px;
-}
-
-.card-body,
-.card {
-  background-color: #f5f6fa;
+.portfolio-photo-box {
+  position: relative;
+  margin: 10px;
 }
 
 button:hover {
@@ -53,42 +29,43 @@ button:hover {
   text-indent: 40px;
 }
 
-.clearfix {
+/* .clearfix {
   display: inline-block;
   width: 100%;
-}
+} */
 
 .btn {
   margin: 3px;
+  margin-bottom: 5px;
 }
 
 @media (max-width: 768px) {
-  .portfolio-card {
+  .portfolio-photo-box,
+  .portfolio-photo {
     width: 100% !important;
   }
 }
 
 @media (max-width: 500px) {
-  .portfolio-card,
   .nav-link {
     width: 89% !important;
   }
 }
 
-.nav-link {
+nav {
+  z-index: 2;
+}
+
+nav a.nav-link {
   letter-spacing: 1px;
   cursor: pointer;
-  margin-right: 10px;
-  color: #fff !important;
-  border-top: none;
-  padding: 0;
 }
 
 nav ul li {
   text-transform: uppercase;
 }
 
-.navbar-nav > li {
+.navbar-nav > li > a {
   margin-right: 10px;
   color: #fff !important;
   border-top: none;
@@ -102,18 +79,14 @@ nav ul li {
 .navbar-nav > li > a.active,
 .navbar-nav > li > a:focus,
 .navbar-nav > li > a:hover {
-  border-top: 2px solid #9b59b6;
-}
-
-nav {
-  z-index: 2;
+  border-top: 2px solid rebeccapurple;
 }
 
 .header-styles {
   background: url(space-header.png) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 75vh;
   position: relative;
 }
 
@@ -165,4 +138,30 @@ nav {
   .particles {
     display: none;
   }
+}
+
+.footer {
+  background: black;
+  color: white;
+  padding: 2px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: gray;
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: rebeccapurple;
+  cursor: pointer;
+}
+
+.footer-div {
+  text-align: auto;
+  margin-top: 5px;
+}
+
+.footer-div-two {
+  margin-top: 7px;
 }

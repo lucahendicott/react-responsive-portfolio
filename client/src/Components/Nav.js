@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 const Nav = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-      <h3 id="name">Lucah Endicott</h3>
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <h3 id="name">LUCAH ENDICOTT</h3>
       <span className="navbar-brand mb-1 h1"></span>
       <button
         className="navbar-toggler"
