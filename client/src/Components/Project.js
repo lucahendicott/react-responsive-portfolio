@@ -1,6 +1,6 @@
 import React from "react";
 
-const Card = (props) => {
+const Project = (props) => {
   return (
     <div className="porfolio-styles col-md-6 col-xs-4">
       <div className="container portfolio-container">
@@ -27,4 +27,4 @@ const Card = (props) => {
   );
 };
 
-export default Card;
+export default Project;
