@@ -8,9 +8,7 @@ const Portfolio = () => {
   return (
     <>
       <div>
-        <h1 className="text-uppercase text-center py-5 portfolio-header">
-          Portfolio
-        </h1>
+        <h1 className="text-center py-5 portfolio-header">Portfolio</h1>
         <Project
           title={"MIXTAPE GENERATION"}
           text={
@@ -55,6 +53,34 @@ const Portfolio = () => {
           link={"https://lucahendicott.github.io/code-quiz/"}
           repo={"https://github.com/lucahendicott/code-quiz.git"}
         />
+        <br />
+        <br />
+        <Project
+          title={"WORK DAY SCHEDULER"}
+          text={
+            "An application designed for the user to plan and save events for their work day."
+          }
+          imageSrc={
+            "https://user-images.githubusercontent.com/70814349/97759401-2f9f2780-1abe-11eb-9996-18d63c24d027.gif"
+          }
+          link={"https://lucahendicott.github.io/work-day-scheduler/"}
+          repo={"https://github.com/lucahendicott/work-day-scheduler.git"}
+        />
+        <br />
+        <br />
+        <Project
+          title={"WEATHER DASHBOARD"}
+          text={
+            "An application using Open Weather API for users to search by city and recieve weather information for that day, as well as a 5 day forcast."
+          }
+          imageSrc={
+            "https://user-images.githubusercontent.com/70814349/98759084-24cd7800-2385-11eb-90d2-2c4658e15efa.png"
+          }
+          link={"https://lucahendicott.github.io/weather-dashboard/"}
+          repo={"https://github.com/lucahendicott/weather-dashboard.git"}
+        />
+        <br />
+        <br />
       </div>
     </>
   );

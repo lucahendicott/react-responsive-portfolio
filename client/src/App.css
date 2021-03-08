@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+
+* {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
 #name {
   color: white;
 }
@@ -16,27 +22,21 @@ h1 {
   margin: 10px;
 }
 
-button:hover {
-  outline-color: lightcyan;
+.btn {
+  margin: 3px;
+  margin-bottom: 5px;
+  background-color: #6c5ce7;
+  border: none;
+  font-weight: bold;
 }
 
 .btn:hover {
-  background-color: #f1c40f;
+  background-color: #a29bfe;
   border-color: white;
 }
 
 .about-me-txt {
   text-indent: 40px;
-}
-
-/* .clearfix {
-  display: inline-block;
-  width: 100%;
-} */
-
-.btn {
-  margin: 3px;
-  margin-bottom: 5px;
 }
 
 @media (max-width: 768px) {
@@ -79,7 +79,7 @@ nav ul li {
 .navbar-nav > li > a.active,
 .navbar-nav > li > a:focus,
 .navbar-nav > li > a:hover {
-  border-top: 2px solid rebeccapurple;
+  border-top: 2px solid #a29bfe;
 }
 
 .header-styles {
@@ -122,9 +122,10 @@ nav ul li {
   margin-bottom: 50px;
 }
 
-.about-me-header {
+.about-me-header,
+.portfolio-header {
   text-transform: uppercase;
-  color: rebeccapurple;
+  color: #6c5ce7;
 }
 
 .tsparticles-canvas-el {
@@ -148,12 +149,12 @@ nav ul li {
 
 .footer a {
   text-decoration: none;
-  color: gray;
+  color: #b2bec3;
 }
 
 .footer a:hover {
   text-decoration: none;
-  color: rebeccapurple;
+  color: #a29bfe;
   cursor: pointer;
 }
 
