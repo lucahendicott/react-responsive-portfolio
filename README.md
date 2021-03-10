@@ -15,7 +15,13 @@ No installs or downloads needed. App runs in browser as is
 
 ## Usage  
 This is a react application using a few different components the are passed into the main App.js to render a fully functional front end portfolio. 
-The components included are a Navbar with a home and portfolio link. This component is passed directly to the App.js file so the navbar is displayed at all times throughout any part of the app. A footer component which is also passed to App.js to be displayed at all times with links to a personal email, phone number, linkedin profile, github account and a downloadable PDF resume. a Header component passed to App.js and a Project.js component that passes props so it can be used and called in the Portfolio.js page component. The Portfolio page passes a the Project.js component for each project added to the portfolio page using props. the About.js page returns a simple about me div with a profile photo. All of these pages and components are passed into the App.js where we use react-router-dom to control the navigation of the application. This allows the single page application to route to the necessary end point and display the proper pages when the navbar links are clicked. The portfolio is mobile friendly, using Bootstrap frameowrk for styling along with custom CSS styles.  
+The components included are a Navbar with a home and portfolio link. This component is passed directly to the App.js file so the navbar is displayed at all times throughout any part of the app. 
+
+A footer component which is also passed to App.js to be displayed at all times with links to a personal email, phone number, linkedin profile, github account and a downloadable PDF resume. 
+
+A Header component passed to App.js and a Project.js component that passes props so it can be used and called in the Portfolio.js page component. The Portfolio page passes a the Project.js component for each project added to the portfolio page using props. 
+
+The About.js page returns a simple about me div with a profile photo. All of these pages and components are passed into the App.js where we use react-router-dom to control the navigation of the application. This allows the single page application to route to the necessary end point and display the proper pages when the navbar links are clicked. The portfolio is mobile friendly, using Bootstrap frameowrk for styling along with custom CSS styles.  
 
 ## Credits  
 [Particles.js](https://www.npmjs.com/package/react-particles-js) 
