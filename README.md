@@ -26,9 +26,9 @@ The About.js page returns a simple about me div with a profile photo. All of the
 ![react-responsive-portfolio (1)](https://user-images.githubusercontent.com/70814349/110693459-4eb07300-819c-11eb-9d97-2cad88bf42f1.gif)
 
 ## Credits  
-[Particles.js](https://www.npmjs.com/package/react-particles-js) 
-[Font Awesome hamburger icon](https://fontawesome.com/icons/bars?style=solid) 
-[GitHub Pages Deployment](https://create-react-app.dev/docs/deployment/#github-pages) 
+[Particles.js](https://www.npmjs.com/package/react-particles-js) <br>
+[Font Awesome hamburger icon](https://fontawesome.com/icons/bars?style=solid) <br>
+[GitHub Pages Deployment](https://create-react-app.dev/docs/deployment/#github-pages) <br>
 
 ## Deployed App
 [Lucah's Portfolio](https://lucahendicott.github.io/react-responsive-portfolio/)
