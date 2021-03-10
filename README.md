@@ -23,6 +23,8 @@ A Header component passed to App.js and a Project.js component that passes props
 
 The About.js page returns a simple about me div with a profile photo. All of these pages and components are passed into the App.js where we use react-router-dom to control the navigation of the application. This allows the single page application to route to the necessary end point and display the proper pages when the navbar links are clicked. The portfolio is mobile friendly, using Bootstrap frameowrk for styling along with custom CSS styles.  
 
+[react-responsive-portfolio.gif.zip](https://github.com/lucahendicott/react-responsive-portfolio/files/6118688/react-responsive-portfolio.gif.zip)
+
 ## Credits  
 [Particles.js](https://www.npmjs.com/package/react-particles-js) 
 [Font Awesome hamburger icon](https://fontawesome.com/icons/bars?style=solid) 
